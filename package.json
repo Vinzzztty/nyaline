@@ -1,0 +1,24 @@
+{
+    "name": "nyaline",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "auth.json"
+        ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@adiwajshing/baileys": "^4.4.0",
+        "axios": "^1.4.0",
+        "nodemon": "^2.0.22",
+        "qrcode-terminal": "^0.12.0"
+    }
+}
